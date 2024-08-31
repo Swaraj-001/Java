@@ -55,7 +55,7 @@ public class Months_List
                         monthString = "Number Invalid";
         }
 
-         System.out.println("\n\t\t\t The Month is "+monthString);
+         System.out.println("\n\t\t\t The Month is "+monthString+". ");
          System.out.println("\n\t\t\t !!!...Thank_You...!!!\n");
 
          sc.close();
