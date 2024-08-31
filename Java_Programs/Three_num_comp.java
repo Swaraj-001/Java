@@ -2,23 +2,23 @@ import java.util.*;
 
 public class Three_num_comp {
     public static void main(String arg[]) {
-        int a = 0, b = 0, c = 0;
+        int N1 = 0, N2 = 0, N3 = 0;
         Scanner s = new Scanner(System.in);
         System.out.print("\n\t Enter the first number :\t");
-        a = s.nextInt();
+        N1 = s.nextInt();
         System.out.print("\n\t Enter the second number :\t");
-        b = s.nextInt();
+        N2 = s.nextInt();
         System.out.print("\n\t Enter the third number :\t");
-        c = s.nextInt();
+        N3 = s.nextInt();
 
-        if (c == b && b == a) {
+        if (N3 == N2 && N2 == N1) {
             System.out.println("\n\t\t\t All Numbers are Same");
-        } else if (a >= b && a >= c) {
-            System.out.println(" \n\t\t\t " + a + " is greater");
-        } else if (b >= a && b >= c) {
-            System.out.println(" \n\t\t\t " + b + " is greater");
-        } else if (c >= b && c >= a) {
-            System.out.println(" \n\t\t\t " + c + " is greater");
+        } else if (N1 >= N2 && N1 >= N3) {
+            System.out.println(" \n\t\t\t " + N1 + " is greater");
+        } else if (N2 >= N1 && N2 >= N3) {
+            System.out.println(" \n\t\t\t " + N2 + " is greater");
+        } else if (N3 >= N2 && N3 >= N1) {
+            System.out.println(" \n\t\t\t " + N3 + " is greater");
         }
 
         System.out.println(" \n\t\t !!!...Thank_You...!!! \n");
