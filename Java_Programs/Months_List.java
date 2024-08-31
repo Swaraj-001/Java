@@ -1,51 +1,65 @@
-import java.time.Month;
 import java.util.*;
 
-public class Months_List {
-    public static void main(String[] args) {
-        System.out.println("Enter Month Number to Explore:");
+public class Months_List 
+{
+    public static void main()
+    {
+    
+        int Mon = 0 ;
+        String monthString;
+
+        System.out.print("\n\t\tEnter Month Number to Explore :\t");
+        
         Scanner sc = new Scanner(System.in);
-        int m = sc.nextInt();
-        switch (m) {
+        Mon = sc.nextInt();
+
+         switch(Mon)
+        {
             case 1:
-                System.out.println("The Month is January");
-                break;
+                        monthString = "January";
+                        break;
             case 2:
-                System.out.println("The Month is Febuary");
-                break;
+                        monthString = "Febuary";
+                        break;
             case 3:
-                System.out.println("The Month is March");
-                break;
+                        monthString = "March";
+                        break;
             case 4:
-                System.out.println("The Month is April");
-                break;
+                        monthString = "April";
+                        break;
             case 5:
-                System.out.println("The Month is May");
-                break;
+                        monthString = "May";
+                        break;
             case 6:
-                System.out.println("The Month is June");
-                break;
-            case 7:
-                System.out.println("The Month is July");
-                break;
+                        monthString = "June";
+                        break;
+            case 7:     
+                        monthString = "July";
+                        break;
             case 8:
-                System.out.println("The Month is August");
-                break;
+                        monthString = "August";
+                        break;
             case 9:
-                System.out.println("The Month is September");
-                break;
+                        monthString = "September";
+                        break;
             case 10:
-                System.out.println("The Month is October");
-                break;
+                        monthString = "October";
+                        break;
             case 11:
-                System.out.println("The Month is November");
-                break;
+                        monthString = "November";
+                        break;
             case 12:
-                System.out.println("The Month is December ");
-                break;
-            default:
-                System.out.println("Month Invalid");
+                        monthString = "December";
+                        break;
+            default : 
+                        monthString = "Number Invalid";
         }
-    }
+
+         System.out.println("\n\t\t\t The Month is "+monthString);
+         System.out.println("\n\t\t\t !!!...Thank_You...!!!\n");
+
+         sc.close();
+
+     }
 
 }
