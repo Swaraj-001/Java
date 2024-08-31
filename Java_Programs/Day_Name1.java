@@ -1,4 +1,3 @@
-import java.time.*;
 import java.util.*;
 
 public class Day_Name1 {
@@ -24,6 +23,7 @@ public class Day_Name1 {
         } else {
             System.out.println("\n Day Number Invalid");
         }
+        s.close();
     }
 
 }
